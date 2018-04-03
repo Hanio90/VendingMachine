@@ -1,0 +1,10 @@
+﻿@model VendingMachine.Models.CustomerSession;
+
+@foreach(var item in Model.Inventory)
+
+{
+    <h2>@item.Name</h2>
+    <h2>@item.Price</h2>
+    <h2>@item.Quantity</h2>
+}
+        
